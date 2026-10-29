@@ -1,0 +1,29 @@
+{
+  "appId": "tn.ecole.lailakids",
+  "appName": "First Step",
+  "webDir": "www",
+  "android": {
+    "backgroundColor": "#0f2555",
+    "allowMixedContent": true,
+    "adjustMarginsForEdgeToEdge": "auto"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1200,
+      "backgroundColor": "#fffbf3",
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#0f2555",
+      "overlaysWebView": false
+    },
+    "PushNotifications": {
+      "presentationOptions": [
+        "badge",
+        "sound",
+        "alert"
+      ]
+    }
+  }
+}
